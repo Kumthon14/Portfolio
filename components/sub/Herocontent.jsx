@@ -15,7 +15,7 @@ const Herocontent = () => {
         >
             <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
                 <motion.div
-                    variants={slideInFromTop}
+                    variants={slideInFromTop(0.5)}
                     className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] w-[max-content]'
                 >
                     <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
@@ -40,18 +40,37 @@ const Herocontent = () => {
                     I&apos;m a Full Stack Software Engineer with experience in Website,
                     Mobile, and Software development. Check out my projects and skills.
                 </motion.p>
-                <motion.a
-                    variants={slideInFromLeft(1)}
-                    className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
-                >
-                    Learn More!
-                </motion.a>
+                <div className='flex flex-row gap-5'>
+                    <motion.a
+                        href='#contact'
+                        variants={slideInFromLeft(1)}
+                        className='px-3 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[150px]'
+                    >
+                        Contact Me!
+                    </motion.a>
+                    <motion.a
+                        href='/Resume.pdf'
+                        download="Resume"
+                        variants={slideInFromLeft(1)}
+                        className='px-3 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
+                    >  
+                        Download my Resume
+                    </motion.a>
+                </div>
+
             </div>
 
             <motion.div
                 variants={slideInFromRight(0.8)}
                 className='w-full h-full flex justify-center items-center'
             >
+                <Image
+                    className='md:absolute right-0'
+                    src="/Profile (2).png"
+                    alt="MySelf"
+                    height={800}
+                    width={800}
+                />
                 <Image
                     src="/mainIconsdark.svg"
                     alt="work icons"

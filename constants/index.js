@@ -159,6 +159,12 @@ export const Skill_data = [
       height: 80,
     },
     {
+      skill_name: "PHP",
+      Image: "/php-seeklogo.png",
+      width: 80,
+      height: 80,
+    },
+    {
       skill_name: "Fire base",
       Image: "/Firebase.png",
       width: 55,
@@ -223,19 +229,6 @@ export const Skill_data = [
     },
   
   ];
-  
-  
-  
-  export const Other_skill = [
-    {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
-    },
-  ];
-  
-  
   
   
   

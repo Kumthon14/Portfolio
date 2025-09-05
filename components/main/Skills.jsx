@@ -12,9 +12,9 @@ const Skills = () => {
             style={{ transform: "scale(0.9)" }}
         >
             <SkillText />
-            <div className='grid grid-cols-2 gap-x-5 gap-y-8 items-center justify-center'>
-                <div className='Welcome-box flex flex-col relative pb-10 overflow-hidden items-start justify-start border border-[#7042f88b] opacity-[0.9] shadow-lg shadow-[#2A0E61]/50'>
-                    <div className='flex flex-raw mt-[2rem]'>
+            <div className='grid grid-rows-3 md:grid-rows-2 gap-x-5 gap-y-8 items-center justify-center'>
+                <div className='Welcome-box flex flex-col relative pb-10 overflow-hidden items-start justify-start border border-[#7042f88b] opacity-[0.9]'>
+                    <div className='flex flex-row mt-[2rem]'>
                         <SparklesIcon className="text-[#b49bff] mr-[10px] h-10 w-10" />
                         <h1 className='Welcome-text text-[1.8rem] font-semibold font'>Front-End Skills</h1>
                     </div>
@@ -31,7 +31,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className='Welcome-box flex flex-col relative pb-10 overflow-hidden items-start justify-start border border-[#7042f88b] opacity-[0.9]'>
-                    <div className='flex flex-raw mt-[2rem]'>
+                    <div className='flex flex-row mt-[2rem]'>
                         <SparklesIcon className="text-[#b49bff] mr-[10px] h-10 w-10" />
                         <h1 className='Welcome-text text-[1.8rem] font-semibold font'>Back-End Skills</h1>
                     </div>
@@ -47,7 +47,7 @@ const Skills = () => {
                         ))}
                     </div>
                 </div>
-                <div className='Welcome-box flex flex-col relative pb-10 overflow-hidden items-start justify-start col-span-2 mx-auto border border-[#7042f88b] opacity-[0.9]'>
+                <div className='Welcome-box flex flex-col relative pb-10 overflow-hidden items-start justify-start md:col-span-2 mx-auto border border-[#7042f88b] opacity-[0.9]'>
                     <div className='flex flex-raw mt-[2rem]'>
                         <SparklesIcon className="text-[#b49bff] mr-[10px] h-10 w-10" />
                         <h1 className='Welcome-text text-[1.8rem] font-semibold font'>Tools</h1>
