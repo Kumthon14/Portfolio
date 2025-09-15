@@ -40,8 +40,8 @@ const Contact = ({ handleShowModal }) => {
                         <input type="text" name='name' placeholder='Your name' className='Welcome-box text-white px-7 py-5 z-50 text-lg w-100 mx-auto' required />
                         <input type="email" name='email' placeholder='Your email' className='Welcome-box text-white px-7 py-5 z-50 text-lg w-100 mx-auto ' required />
                         <textarea name="message" placeholder='Your message' className='Welcome-box text-white px-7 py-5 z-50 resize-none text-lg w-100 mx-auto'></textarea>
-                        <div className='px-1 z-50 text-lg w-100 mx-auto'>
-                            <button type='submit' className='button-primary rounded-2xl text-white py-4 z-50 w-45 cursor-pointer'>Submit</button>
+                        <div className='px-1 z-50 text-md font-semibold w-100 mx-auto'>
+                            <button type='submit' className='button-primary rounded-2xl text-white py-3 z-50 w-35 cursor-pointer'>Submit</button>
                         </div>
                     </div>
                 </form>
