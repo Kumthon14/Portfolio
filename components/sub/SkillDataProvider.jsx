@@ -28,7 +28,7 @@ const SkillDataProvider = ({ src, width, height, index }) => {
         transition={{delay:index * animationDelay}}
         className='my-auto'
         >
-            <Image
+            <img
             src={src}
             width={width}
             height={height}
