@@ -3,10 +3,11 @@
 import Contact from "@/components/main/Contact";
 import Footer from "@/components/main/Footer";
 import Hero from "@/components/main/Hero";
-import Project from "@/components/main/Project";
+import Achievement from "@/components/main/Archeivement";
 import Skills from "@/components/main/Skills";
 import SuccessModal from "@/components/main/SuccessModal";
 import { useState } from "react";
+import Project from "@/components/main/Project";
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <Hero/>
         <Skills/>
+        <Achievement/>
         <Project/>
         <Contact handleShowModal={handleModal}v/>
         <Footer/>

@@ -96,6 +96,11 @@ export const Skill_data = [
       name: "Discord",
       src: "/discord.svg",
     },
+    {
+      url: "https://github.com/Kumthon14",
+      name: "Github",
+      src: "/github-mark-white.png",
+    },
   ];
   
   
