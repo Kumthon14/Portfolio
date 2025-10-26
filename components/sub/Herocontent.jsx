@@ -56,6 +56,14 @@ const Herocontent = () => {
                     >  
                         Download my Resume
                     </motion.a>
+                    <motion.a
+                        href='/Transcript.pdf'
+                        download="Transcript"
+                        variants={slideInFromLeft(1)}
+                        className='px-3 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
+                    >  
+                        Download my Transcript
+                    </motion.a>
                 </div>
 
             </div>
